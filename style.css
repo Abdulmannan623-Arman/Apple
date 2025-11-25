@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.logo {
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.tab:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+.child1 {
+    width: 100%;
+    padding: 20px 0 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.store {
+    width: 50%;
+    text-align: left;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.buy {
+    width: 50%;
+    text-align: right;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: .007em;
+    line-height: 1.457;
+    padding: 75px 148px;
+}
+
+.child2 {
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 20px;
+}
+
+.products {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.products:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.products img {
+    margin: 0 auto;
+    max-height: 78px;
+    width: auto;
+}
+
+.products h2 {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.child3 {
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.latest {
+    width: 100%;
+    text-align: left;
+    font-size: 28px;
+}
+
+.latest h3 {
+    display: inline;
+}
+
+.latest span {
+    color: #6e6e73;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    margin-top: 30px;
+    background: url("store-card-40-iphone-17-pro-202509.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.card h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card h6 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#i2 {
+background: url(store-card-40-macbook-pro-202510.jpeg);
+background-position: center;
+background-size: cover;
+}
+#i3 {
+background: url(store-card-40-watch-ultra-202509_GEO_IN.jpeg);
+background-position: center;
+background-size: cover;
+}
